@@ -1,1 +1,95 @@
-/*# sourceMappingURL=design.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(45deg, royalblue, hotpink);
+  padding: 10px;
+  font-family: Lobster;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+header * {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logo img {
+  width: 130px;
+  height: 44px;
+}
+
+.logo img:hover {
+  width: 160px;
+  height: 100px;
+  cursor: progress;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.lesson-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+.pnicon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pnicon span {
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(14, 44, 83);
+}
+
+.pnicon img {
+  width: 30px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 255, 255, 0.808);
+}
+
+#phonenm:hover {
+  -webkit-text-decoration: underline solid 3px;
+          text-decoration: underline solid 3px;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(175, 199, 204);
+}/*# sourceMappingURL=design.css.map */
